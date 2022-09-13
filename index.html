@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pousada Secreta | Angra dos Reis</title>
+
+        <!-- flaticon -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" sizes="512x512">
+
+        <!-- [if lt IE 9]>
+            <script src="assets/js/html5shiv.js"></script>
+        <![endif] -->
+
+        <!-- css -->
+        <link rel="stylesheet" href="assets/css/normalize.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/folhaEstilo.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/responsivo.css" rel="stylesheet">
+    </head>
+    <body>
+        <header id="cabecalho">
+            <div class="container flex">
+                <div id="logo">
+                    <span class="cor-preto">Pousada</span>
+                    <span class="cor-branco">Secreta</span>
+                </div> <!-- Logo -->
+                <nav id="menu">
+                    <a href="#">Sobre</a>
+                    <a href="#">Rota</a>
+                    <a href="#">Quartos</a>
+                </nav> <!-- menu -->
+            </div>
+        </header> 
+
+        <section id="banner">
+            <div class="box-banner">
+                <h3>Pousada Secreta</h3>
+                <p>A pousada reservada em Angra dos Reis</p>
+            </div>
+        </section>
+
+        <section id="qrt-container" class="mb-section">
+            <div class="container">
+                <h4 class="estilo-texto-destaque">Sejá bem-vindo(a)!</h4>
+                <p class="paragrafo-destaque">Relexem em nossas acomodações e curta o melhor de Angra dos Reis.</p>
+                <p class="paragrafo-destaque">Temos quartos para solteiro, casal ou família.</p>
+
+                <div class="flex flex-qrt">
+                    <div class="qrt">
+                        <img src="assets/img/quarto-solteiro.jpg" alt="Quarto de solteiro">
+                        <h5>Quarto de solteiro</h5>
+                    </div>
+                    <div class="qrt">
+                        <img src="assets/img/quarto-casal.png" alt="Quarto de casal">
+                        <h5>Quarto de casal</h5>
+                    </div>
+                    <div class="qrt">
+                        <img src="assets/img/quarto-familiar.jpeg" alt="Quarto de família">
+                        <h5>Quarto de família</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="rt" class="mb-section">
+            <h4 class="estilo-texto-destaque">Sejá bem-vindo(a)!</h4>
+            <p>Veja como chegar até a pousada</p>
+
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d469994.0219100497!2d-44.645729821157396!3d-23.030075851272237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9c4e44c02257e9%3A0xcacd82aec69477e5!2sMercure%20Angra%20dos%20Reis!5e0!3m2!1spt-BR!2sbr!4v1663105177722!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <aside id="feedback-container" class="mb-section">
+            <div class="container">
+                <h4 class="estilo-texto-destaque">Sobre a pousada!</h4>
+                <p class="paragrafo-destaque">Conheça uma pouco sobre a nossa pousada</p>
+                <div class="flex mb-section ">
+                    <div class="card">
+                        <div>
+                            <h4>A pousada</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione culpa recusandae voluptate, quia, illo minus repudiandae aut deleniti non quaerat mollitia id, fugiat tempora quibusdam numquam eius expedita dolore?</p>
+                        </div>
+                        <img src="assets/img/piscina.jpg">
+                    </div>
+
+                    <div class="card">
+                        <div>
+                            <h4>Nossos quartos</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione culpa recusandae voluptate, quia, illo minus repudiandae aut deleniti non quaerat mollitia id, fugiat tempora quibusdam numquam eius expedita dolore?</p>
+                        </div>
+                        <img src="assets/img/quartos.jpg">
+                    </div>
+
+                    <div class="card">
+                        <div>
+                            <h4>Alimentação</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione culpa recusandae voluptate, quia, illo minus repudiandae aut deleniti non quaerat mollitia id, fugiat tempora quibusdam numquam eius expedita dolore?</p>
+                        </div>
+                        <img src="assets/img/alimetaca0.webp">
+                    </div>
+
+                    <div class="card">
+                        <div>
+                            <h4>Recepção</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione culpa recusandae voluptate, quia, illo minus repudiandae aut deleniti non quaerat mollitia id, fugiat tempora quibusdam numquam eius expedita dolore?</p>
+                        </div>
+                        <img src="assets/img/recepcao.jpg">
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <footer id="rodape">
+            <p><i>Copyright &copy; <time id="ano"></time></i></p>
+            <p><i>Desenvolvido por <a href="https://github.com/Fernandosantos0" rel="external" target="_blank" hreflang="pt-br" title="Clicando aqui, você acessará meu perfil do GitHub">Fernando Santos</a></i></p>
+        </footer>
+
+        <script>
+            ano.textContent = new Date().getFullYear();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+@media (max-width: 860px) {
+    div.box-banner {
+        padding: 70%;
+    }
+
+    aside#feedback-container div.flex {
+        flex-direction: column;
+    }
+
+    div.card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 570px) {
+    header#cabecalho {
+        height: 6em;
+        line-height: 6em;
+        text-align: center;
+    }
+
+    header#cabecalho div.flex {
+        flex-direction: column;
+
+    }
+
+    header#cabecalho nav#menu {
+        margin-top: -69px;
+    }
+}
