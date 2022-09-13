@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Google Fonts */
 
 /* Fonte Open Sans */
@@ -9,7 +16,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Roboto', sans-serif;
 }
@@ -35,13 +43,22 @@ body {
 }
 
 .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
 }
 
 .flex-qrt {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 2.0em;
 }
 
@@ -77,13 +94,16 @@ header#cabecalho nav#menu a {
     color: rgb(19, 18, 18);
     margin-left: 1.0em;
     font-size: 1.2em;
+    -webkit-transition: all 3s;
+    -o-transition: all 3s;
     transition: all 3s;
 } 
 
 header#cabecalho nav#menu a:hover {
     color: var(--color-primario);
     text-decoration: underline;
-    text-decoration-color: var(--color-primario);
+    -webkit-text-decoration-color: var(--color-primario);
+            text-decoration-color: var(--color-primario);
 }
 
 
@@ -95,10 +115,19 @@ section#banner {
     min-height: 32.5em;
     /* position: relative;
     top: 0; */
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 section#banner div.box-banner {
@@ -110,7 +139,8 @@ section#banner div.box-banner {
     padding: 2.9em;
     color: #fff;
     border-radius: .5em;
-    box-shadow: 3px 4px 5px #71b8fead;
+    -webkit-box-shadow: 3px 4px 5px #71b8fead;
+            box-shadow: 3px 4px 5px #71b8fead;
 }
 
 section#banner div.box-banner h3 {
@@ -168,8 +198,13 @@ aside#feedback-container p[class="paragrafo-destaque"] {
 
 .card {
     max-width: 45%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-flow: row nowrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
     gap: 1.5em;
     margin-bottom: 1.5em;
     background-color: rgb(216, 212, 212);
