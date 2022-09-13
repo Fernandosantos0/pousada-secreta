@@ -9,14 +9,15 @@
         <!-- flaticon -->
         <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" sizes="512x512">
 
+        <!-- html5shiv.js -->
         <!-- [if lt IE 9]>
             <script src="assets/js/html5shiv.js"></script>
         <![endif] -->
 
         <!-- css -->
-        <link rel="stylesheet" href="assets/css/normalize.css" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/folhaEstilo.css" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/responsivo.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/normalize.css" rel="stylesheet"> <!-- normalização -->
+        <link rel="stylesheet" href="assets/css/folhaEstilo.css" rel="stylesheet"> <!-- estilo das páginas -->
+        <link rel="stylesheet" href="assets/css/responsivo.css" rel="stylesheet"> <!-- responsividade -->
     </head>
     <body>
         <header id="cabecalho">
@@ -31,14 +32,14 @@
                     <a href="#">Quartos</a>
                 </nav> <!-- menu -->
             </div>
-        </header> 
+        </header>  <!-- cabecalho -->
 
         <section id="banner">
             <div class="box-banner">
                 <h3>Pousada Secreta</h3>
                 <p>A pousada reservada em Angra dos Reis</p>
-            </div>
-        </section>
+            </div> <!-- box-banner -->
+        </section> <!-- banner -->
 
         <section id="qrt-container" class="mb-section">
             <div class="container">
@@ -61,14 +62,14 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> <!-- qrt-container -->
 
         <section id="rt" class="mb-section">
             <h4 class="estilo-texto-destaque">Sejá bem-vindo(a)!</h4>
             <p>Veja como chegar até a pousada</p>
 
             <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d469994.0219100497!2d-44.645729821157396!3d-23.030075851272237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9c4e44c02257e9%3A0xcacd82aec69477e5!2sMercure%20Angra%20dos%20Reis!5e0!3m2!1spt-BR!2sbr!4v1663105177722!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+        </section> <!-- rt -->
 
         <aside id="feedback-container" class="mb-section">
             <div class="container">
@@ -108,14 +109,14 @@
                     </div>
                 </div>
             </div>
-        </aside>
+        </aside> <!-- feedback-container -->
 
         <footer id="rodape">
             <p><i>Copyright &copy; <time id="ano"></time></i></p>
             <p><i>Desenvolvido por <a href="https://github.com/Fernandosantos0" rel="external" target="_blank" hreflang="pt-br" title="Clicando aqui, você acessará meu perfil do GitHub">Fernando Santos</a></i></p>
-        </footer>
+        </footer> <!-- rodape -->
 
-        <script>
+        <script type="text/javascript">
             ano.textContent = new Date().getFullYear();
         </script>
     </body>
