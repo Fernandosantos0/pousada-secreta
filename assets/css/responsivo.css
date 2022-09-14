@@ -23,6 +23,10 @@
 }
 
 @media (max-width: 570px) {
+    section#banner div.box-banner {
+        width: 85%;
+    }
+
     header#cabecalho {
         height: 6em;
         line-height: 6em;
@@ -39,5 +43,17 @@
 
     header#cabecalho nav#menu {
         margin-top: -69px;
+    }
+}
+
+
+@media (max-width: 540px) {
+    .card {
+        flex-direction: column;
+        gap: .9em;
+    }
+
+    .card img {
+        max-width: 100%;
     }
 }
