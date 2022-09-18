@@ -8,7 +8,7 @@
 
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-HJ2KDEJW1Q"></script>
-            <script>
+        <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
@@ -122,9 +122,11 @@
         </aside> <!-- feedback-container -->
 
         <footer id="rodape">
-            <p><i>Copyright &copy; <time id="ano"></time></i></p>
-            <p><i>Desenvolvido por <a href="https://github.com/Fernandosantos0" rel="external" target="_blank" hreflang="pt-br" title="Clicando aqui, você acessará meu perfil do GitHub">Fernando Santos</a></i></p>
-        </footer> <!-- rodape -->
+            <div class="container">
+               <p><i>Copyright &copy; <time id="ano"></time></i></p>
+               <p><i>Desenvolvido por <a href="https://github.com/Fernandosantos0" rel="external" target="_blank" hreflang="pt-br" title="Clicando aqui, você acessará meu perfil do GitHub">Fernando Santos</a></i></p>
+             </div>
+          </footer> <!-- rodape -->
 
         <script type="text/javascript">
             ano.textContent = new Date().getFullYear();
