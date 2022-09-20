@@ -109,7 +109,7 @@ header#cabecalho nav#menu a:hover {
 
 /* Estilo do setion com ID banner */
 section#banner {
-    background: url('../img/bg-capa.jpg') no-repeat;
+    background: url('../img/bg-capa.jpg') no-repeat center;
     background-size: cover;
     max-width: 100vw;
     min-height: 32.5em;
