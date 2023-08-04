@@ -1,3 +1,14 @@
-<h1>Projeto Clone da DevMedia</h1>
-<p><a href="https://fernandosantos0.github.io/pousada-secreta/">Clique aqui</a> para acessar o projeto pelo GitHub Page</p>
-<img src="wireframe.PNG">
+<h1 align="center">Projeto Clone da DevMedia</h1>
+
+<p><img src="wireframe.PNG"></p>
+<p>Desenvolvimento de uma página Landing Page responsivo da <b>Pousada Secreta</b>.</p>
+
+## Tecnologias Empregadas
+- HTML
+- CSS
+
+### Link para acessar o projeto:
+```bash
+  https://fernandosantos0.github.io/pousada-secreta/
+
+```
